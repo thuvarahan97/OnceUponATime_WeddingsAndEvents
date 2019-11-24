@@ -16,10 +16,11 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
-  background: #fff;
-  color: #848484;
+  background: #000;
+  color: #7851a9;
   font-weight: 300;
   overflow-x: hidden;
+  border: 8px groove #FFDF00;
 }
 
 body.fh5co-offcanvas {
@@ -562,11 +563,16 @@ figure {
   margin-bottom: 3em;
 }
 
+.heading-section h1 {
+  position: relative;
+  color: #7851a9;
+}
+
 .heading-section h2 {
   font-size: 50px;
   font-weight: 300;
   position: relative;
-  color: #F69D9D;
+  color: #7851a9;
 }
 
 .heading-section p {
@@ -897,12 +903,12 @@ figure {
 }
 
 #footer {
-  background: #F69D9D;
-  padding: 60px 0 40px;
+  background: #292929;
+  padding: 50px 0 20px;
 }
 
 #footer p {
-  color: white;
+  color: #7851a9;
   font-size: 14px;
 }
 
@@ -928,7 +934,7 @@ figure {
 }
 
 .btn.btn-primary {
-  background: #F69D9D;
+  background: #8d5fc7;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -1262,3 +1268,21 @@ figure {
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
+
+.tab_link:hover {
+  color: #8d5fc7;
+}
+
+.contact_info_form {
+  width: 500px;
+  margin:auto;
+}
+
+.form-control {
+  color: #8d5fc7;
+}
+
+.form-control::placeholder {
+    color: #8d5fc7;
+}
+
